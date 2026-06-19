@@ -1,0 +1,18 @@
+# VM images and build artifacts
+*.qcow2
+*.img
+*.iso
+*.raw
+
+# logs and scratch
+*.log
+*.tmp
+scratch/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# local environment overrides
+.env
+*.local
